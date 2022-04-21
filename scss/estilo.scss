@@ -1,0 +1,116 @@
+/* PARA PC */
+@media only screen and (min-width:768px) and (max-width:1200px) {	
+    .border {
+    	border: 4px solid black;    	
+     }
+}
+
+/* PARA TABLET */
+@media screen and (min-width:321px) and (max-width:768px) {
+    /*Cuestiones del Footer*/
+    footer{
+        height: 50px;
+    }
+
+    footer p{
+        font-size: 10px;
+        text-align: center;
+    }
+
+    footer li a img{        
+        display:none;
+    }
+    
+}
+
+/* PARA MOVIL */
+@media screen and (min-width:1px) and (max-width:320px) {	    
+    /*Cuestiones del Footer*/
+    footer{
+        height: 30px;
+    }
+
+    footer p{
+        font-size: 10px;
+        text-align: center;
+    }
+
+    footer li a img{        
+        display:none;
+    }
+}
+
+/*Fuente de Google*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+$color_verde_claro: #6EAE45;
+$color_verde_obscuro: #425651;
+$color_azul: #3785C1;
+$color_naranja: orange;
+
+.header__img{    
+    height: 100px;
+    width: 100px;
+}
+
+/* Estilo para el footer */
+footer {    
+    background-image: linear-gradient(to right, $color_verde_obscuro, $color_verde_claro);    
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: white;    
+}
+
+h1{
+    color: $color_azul;
+    font-size: 35px;
+}
+
+h2{
+    color: $color_verde_claro;
+}
+
+h3{
+    color: $color_naranja;
+}
+
+/* Propiedades Paginas */
+.pagina__figure{
+    display: flex;     
+    justify-content: center;
+}
+
+.pagina__figure img{
+    height: 150px;
+    width: 100%;
+}
+
+.pagina__article{
+    display: flex;
+    flex-direction: column;         
+}
+
+.pagina__article p{
+    font-size: 14px;
+}
+
+/* Para Uso del Formulario */
+.titulo-formulario {
+    color: $color_azul;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: $color_azul;
+
+}
+
+/* Transiciones */
+.img_carrusel:hover {
+    filter: blur(5px);
+}
+
+.img_secundarias:hover{    
+    filter: grayscale(80%);
+}
