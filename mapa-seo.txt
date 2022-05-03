@@ -1,0 +1,34 @@
+cedron.html
+<meta name="description" content="El cedrón es un arbusto leñoso con hojas alargadas verdes brillantes y con muchos beneficios">
+<meta name="keywords"  content="Cedron, Aloysia citrodora, Plantas Medicinales, Herbolaria">
+
+huerto.html
+<meta name="description" content="El huerto urbano, algo más que el cultivo sano de alimentos. Uno de sus principales beneficios es cultivar y cosechar a lo largo de todo el año">
+<meta name="keywords"  content="Huerto, Por qué hacer un huerto, Beneficios del Huerto, Huerto Urbano">
+
+marzo.html
+<meta name="description" content="Es la pregunta que te puedes hacer cada mes, por esa razón mencionaremos los cultivos que es mejor plantar en marzo.">
+<meta name="keywords"  content="Que sembrar, Calendario de Siembra, Hortalizas en marzo">
+
+nosotros.html
+<meta name="description" content="El Rincón Verde es una empresa comprometida con las familias latinoamericanas creando una nueva cultura de alimentación cosechando sus propios alimentos en espacios reducidos.">
+<meta name="keywords"  content="El Rincón Verde, Rincón Verde, Agricultura Urbana, Huertos">
+
+
+productos.html
+<meta name="description" content="En El Rincón Verde tenemos los mejores productos para cultivar tus alimentos en casa.">
+<meta name="keywords"  content="Insumos para huertos, Productos para huertos, EcoHuerto, Fertilizante Orgánico, Germinación, Semilleros">
+
+servicios.html
+<meta name="description" content="En El Rincón Verde tenemos la mejor asesoría para diseñar, instalar y darle mantenimiento a tu huerto.">
+<meta name="keywords"  content="Asesoría en huertos, Mantenimiento de huertos, Cursos de Huertos">
+
+contacto.html
+<meta name="description" content="Quieres seguir en contacto con El Rincón Verde, te invitamos a dejarnos tus datos.">
+<meta name="keywords"  content="Formulario de contacto, El Rincón Verde">
+
+Ajuste de Titulos de las Páginas
+
+
+
+

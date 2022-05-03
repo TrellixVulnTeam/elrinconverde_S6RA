@@ -47,30 +47,44 @@ $color_verde_obscuro: #425651;
 $color_azul: #3785C1;
 $color_naranja: orange;
 
-.header__img{    
-    height: 100px;
-    width: 100px;
+
+$estilos:(
+    tFuente1: 35px,
+    tFuente2:30px,
+    tFuente3:25px,
+    tFuente4:20px
+);
+
+@mixin sizes($width, $height){
+    height: $height;
+    width:$width;
+}
+
+.header__img{
+    @include sizes(100px,100px);        
 }
 
 /* Estilo para el footer */
 footer {    
     background-image: linear-gradient(to right, $color_verde_obscuro, $color_verde_claro);    
     font-family: 'Lato', sans-serif;
-    font-size: 20px;
+    font-size: map-get($estilos,tFuente4);    
     color: white;    
 }
 
 h1{
     color: $color_azul;
-    font-size: 35px;
+    font-size: map-get($estilos,tFuente1);
 }
 
 h2{
     color: $color_verde_claro;
+    font-size: map-get($estilos,tFuente2);
 }
 
 h3{
     color: $color_naranja;
+    font-size: map-get($estilos,tFuente3);
 }
 
 /* Propiedades Paginas */
@@ -80,8 +94,7 @@ h3{
 }
 
 .pagina__figure img{
-    height: 150px;
-    width: 100%;
+    @include sizes(100%,150px);     
 }
 
 .pagina__article{
@@ -90,18 +103,18 @@ h3{
 }
 
 .pagina__article p{
-    font-size: 14px;
+    font-size: map-get($estilos,tFuente4);;
 }
 
 /* Para Uso del Formulario */
 .titulo-formulario {
     color: $color_azul;
-    font-size: 27px;
+    font-size: map-get($estilos,tFuente2);
     padding: 10px;
 }
 
 .bigicon {
-    font-size: 35px;
+    font-size: map-get($estilos,tFuente1);
     color: $color_azul;
 
 }

@@ -43,10 +43,12 @@ h1 {
   font-size: 35px; }
 
 h2 {
-  color: #6EAE45; }
+  color: #6EAE45;
+  font-size: 30px; }
 
 h3 {
-  color: orange; }
+  color: orange;
+  font-size: 25px; }
 
 /* Propiedades Paginas */
 .pagina__figure {
@@ -62,12 +64,12 @@ h3 {
   flex-direction: column; }
 
 .pagina__article p {
-  font-size: 14px; }
+  font-size: 20px; }
 
 /* Para Uso del Formulario */
 .titulo-formulario {
   color: #3785C1;
-  font-size: 27px;
+  font-size: 30px;
   padding: 10px; }
 
 .bigicon {
